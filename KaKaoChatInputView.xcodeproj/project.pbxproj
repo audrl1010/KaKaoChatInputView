@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		8BA4BB791EC7455C0090F295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BB781EC7455C0090F295 /* AppDelegate.swift */; };
-		8BA4BB7B1EC7455C0090F295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BB7A1EC7455C0090F295 /* ViewController.swift */; };
-		8BA4BB7E1EC7455C0090F295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4BB7C1EC7455C0090F295 /* Main.storyboard */; };
 		8BA4BB801EC7455C0090F295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4BB7F1EC7455C0090F295 /* Assets.xcassets */; };
 		8BA4BB831EC7455C0090F295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BA4BB811EC7455C0090F295 /* LaunchScreen.storyboard */; };
+		8BA4BB8B1EC745910090F295 /* Base+View+VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BB8A1EC745910090F295 /* Base+View+VC.swift */; };
+		8BA4BB8E1EC745E80090F295 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BB8C1EC745E80090F295 /* Then.swift */; };
+		8BA4BB8F1EC745E80090F295 /* UIView+FluidStyleAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BB8D1EC745E80090F295 /* UIView+FluidStyleAutoLayout.swift */; };
+		8BA4BB921EC746470090F295 /* PlusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BB911EC746470090F295 /* PlusButton.swift */; };
+		8BA4BB941EC7467F0090F295 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BB931EC7467F0090F295 /* TextView.swift */; };
+		8BA4BB961EC746900090F295 /* InputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BB951EC746900090F295 /* InputBar.swift */; };
+		8BA4BB981EC746A50090F295 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BB971EC746A50090F295 /* MainVC.swift */; };
+		8BA4BB9C1EC749850090F295 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA4BB9B1EC749850090F295 /* MainCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8BA4BB751EC7455C0090F295 /* KaKaoChatInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaKaoChatInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA4BB781EC7455C0090F295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BA4BB7A1EC7455C0090F295 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8BA4BB7D1EC7455C0090F295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BA4BB7F1EC7455C0090F295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BA4BB821EC7455C0090F295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BA4BB841EC7455C0090F295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA4BB8A1EC745910090F295 /* Base+View+VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Base+View+VC.swift"; sourceTree = "<group>"; };
+		8BA4BB8C1EC745E80090F295 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		8BA4BB8D1EC745E80090F295 /* UIView+FluidStyleAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FluidStyleAutoLayout.swift"; sourceTree = "<group>"; };
+		8BA4BB911EC746470090F295 /* PlusButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusButton.swift; sourceTree = "<group>"; };
+		8BA4BB931EC7467F0090F295 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		8BA4BB951EC746900090F295 /* InputBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputBar.swift; sourceTree = "<group>"; };
+		8BA4BB971EC746A50090F295 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		8BA4BB9B1EC749850090F295 /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +67,43 @@
 			isa = PBXGroup;
 			children = (
 				8BA4BB781EC7455C0090F295 /* AppDelegate.swift */,
-				8BA4BB7A1EC7455C0090F295 /* ViewController.swift */,
-				8BA4BB7C1EC7455C0090F295 /* Main.storyboard */,
+				8BA4BB9A1EC748220090F295 /* Views */,
+				8BA4BB991EC7481B0090F295 /* ViewControllers */,
+				8BA4BB901EC746020090F295 /* Utilitys */,
 				8BA4BB7F1EC7455C0090F295 /* Assets.xcassets */,
 				8BA4BB811EC7455C0090F295 /* LaunchScreen.storyboard */,
 				8BA4BB841EC7455C0090F295 /* Info.plist */,
 			);
 			path = KaKaoChatInputView;
+			sourceTree = "<group>";
+		};
+		8BA4BB901EC746020090F295 /* Utilitys */ = {
+			isa = PBXGroup;
+			children = (
+				8BA4BB8A1EC745910090F295 /* Base+View+VC.swift */,
+				8BA4BB8C1EC745E80090F295 /* Then.swift */,
+				8BA4BB8D1EC745E80090F295 /* UIView+FluidStyleAutoLayout.swift */,
+			);
+			name = Utilitys;
+			sourceTree = "<group>";
+		};
+		8BA4BB991EC7481B0090F295 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BA4BB971EC746A50090F295 /* MainVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8BA4BB9A1EC748220090F295 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8BA4BB951EC746900090F295 /* InputBar.swift */,
+				8BA4BB931EC7467F0090F295 /* TextView.swift */,
+				8BA4BB911EC746470090F295 /* PlusButton.swift */,
+				8BA4BB9B1EC749850090F295 /* MainCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +138,7 @@
 				TargetAttributes = {
 					8BA4BB741EC7455C0090F295 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8C35YB3HK5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,7 +168,6 @@
 			files = (
 				8BA4BB831EC7455C0090F295 /* LaunchScreen.storyboard in Resources */,
 				8BA4BB801EC7455C0090F295 /* Assets.xcassets in Resources */,
-				8BA4BB7E1EC7455C0090F295 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +178,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BA4BB7B1EC7455C0090F295 /* ViewController.swift in Sources */,
+				8BA4BB8E1EC745E80090F295 /* Then.swift in Sources */,
+				8BA4BB8F1EC745E80090F295 /* UIView+FluidStyleAutoLayout.swift in Sources */,
+				8BA4BB941EC7467F0090F295 /* TextView.swift in Sources */,
+				8BA4BB981EC746A50090F295 /* MainVC.swift in Sources */,
 				8BA4BB791EC7455C0090F295 /* AppDelegate.swift in Sources */,
+				8BA4BB8B1EC745910090F295 /* Base+View+VC.swift in Sources */,
+				8BA4BB961EC746900090F295 /* InputBar.swift in Sources */,
+				8BA4BB921EC746470090F295 /* PlusButton.swift in Sources */,
+				8BA4BB9C1EC749850090F295 /* MainCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8BA4BB7C1EC7455C0090F295 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8BA4BB7D1EC7455C0090F295 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8BA4BB811EC7455C0090F295 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -262,6 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8C35YB3HK5;
 				INFOPLIST_FILE = KaKaoChatInputView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grutech.KaKaoChatInputView;
@@ -274,6 +316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8C35YB3HK5;
 				INFOPLIST_FILE = KaKaoChatInputView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grutech.KaKaoChatInputView;
